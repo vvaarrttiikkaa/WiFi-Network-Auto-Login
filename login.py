@@ -24,6 +24,7 @@ else:
     usernameStr = cred[1]
     browser = webdriver.Chrome()
     browser.get(('http://10.10.2.1/24online/webpages/client.jsp?fromlogout=true'))
+    //by uddeshya lal
     
     # fill in username and hit the next button
     
