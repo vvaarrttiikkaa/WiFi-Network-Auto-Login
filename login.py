@@ -31,7 +31,7 @@ else:
     username.send_keys(usernameStr)
     
     password = browser.find_element_by_name('password')
-    
+    #lal
     password.send_keys(passwordStr)
     
     signInButton = browser.find_element_by_name('login')
